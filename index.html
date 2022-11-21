@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>An, Trang, Loan, Long</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><span>A</span>lbum</a>
+
+      <nav class="navbar">
+        <a href="#home">Trang chủ</a>
+        <a href="#book">Sách</a>
+        <a href="#packages">gói</a>
+        <a href="#services">Dịch vụ</a>
+        <a href="#gallery">Kỷ niệm</a>
+        <a href="#review">Kiểm tra</a>
+        <a href="#contact">Tiếp xúc</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn">tìm kiếm</i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+
+      <form action="">
+        <h3>Đăng nhập</h3>
+        <input type="email" class="box" placeholder="enter your email" />
+        <input type="password" class="box" placeholder="enter your password" />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">nhớ tôi</label>
+        <p>Quên mật khẩu? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+      </form>
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Cuộc phiêu lưu là đáng giá</h3>
+        <p>Những kỉ niệm của 4 đứa bạn thân</p>
+        <a href="#" class="btn">Khám phá nhiều hơn</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+      </div>
+
+      <div class="video-container">
+        <video
+          src="images/vid-1.mp4"
+          id="video-slider"
+          loop
+          autoplay
+          muted
+        ></video>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- book section starts  -->
+
+    <section class="bo0k" id="book">
+      <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/book-img.svg" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <h3>tên địa điểm</h3>
+            <input type="text" placeholder="place name" />
+          </div>
+          <div class="inputBox">
+            <h3>bao nhiêu khách</h3>
+            <input type="number" placeholder="number of guests" />
+          </div>
+          <div class="inputBox">
+            <h3>đến</h3>
+            <input type="date" />
+          </div>
+          <div class="inputBox">
+            <h3>rời đi</h3>
+            <input type="date" />
+          </div>
+          <input type="submit" class="btn" value="book now" />
+        </form>
+      </div>
+    </section>
+
+    <!-- book section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+      <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> chưa cập nhật</h3>
+            <p></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price"><span></span></div>
+            <a href="#" class="btn"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> chưa cập nhật</h3>
+            <p></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price"><span></span></div>
+            <a href="#" class="btn"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> chưa cập nhật</h3>
+            <p></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price"><span></span></div>
+            <a href="#" class="btn"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> chưa cập nhật</h3>
+            <p></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price"><span></span></div>
+            <a href="#" class="btn"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> chưa cập nhật</h3>
+            <p></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price"><span></span></div>
+            <a href="#" class="btn"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> chưa cập nhật</h3>
+            <p></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price"><span></span></div>
+            <a href="#" class="btn"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+      <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-hotel"></i>
+          <h3>Khách sạn giá cả phải chăng</h3>
+          <p>Khách sạn với những món ăn ở biển và nổi tiếng!</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-utensils"></i>
+          <h3>Thức ăn và đồ uống</h3>
+          <p>Thức ăn phong phú, đồ uống đủ loại!</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-bullhorn"></i>
+          <h3>Hướng dẫn an toàn</h3>
+          <p>An toàn khi đi du lịch biển!</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-globe-asia"></i>
+          <h3>vòng quanh thế giới</h3>
+          <p>Khám phá Trái Đất 1 cách tròn trịa!</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-plane"></i>
+          <h3>Du lịch nhanh nhất</h3>
+          <p>Muốn đi nhanh thì hãy lên máy bayy nhá!</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-hiking"></i>
+          <h3>Cuộc phiêu lưu</h3>
+          <p>Cuộc phiêu lưu với những nguy hiểm nhưng chứa bao kỉ niệm!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading">
+        <span>k</span>
+        <span>ỷ</span>
+        <span>n</span>
+        <span>i</span>
+        <span>ệ</span>
+        <span>m</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/g-1.jpg" alt="" />
+          <div class="content">
+            <h3>một tình bạn tuyệt vời</h3>
+            <p>Khám phá những vùng đất mới.</p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-2.jpg" alt="" />
+          <div class="content">
+            <h3>một tình bạn tuyệt vời</h3>
+            <p>Vùng đất tuyệt vời mang lại cảm giác vui vẻ.</p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-3.jpg" alt="" />
+          <div class="content">
+            <h3>một tình bạn tuyệt vời</h3>
+            <p>Cảm giác mới lạ.</p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-4.jpg" alt="" />
+          <div class="content">
+            <h3>một tình bạn tuyệt vời</h3>
+            <p>Cảm giác mới lạ.</p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-5.jpg" alt="" />
+          <div class="content">
+            <h3>một tình bạn tuyệt vời</h3>
+            <p>Cảm giác mới lạ.</p>
+            <a href="#" class="btn">Xem thêm</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-6.jpg" alt="" />
+          <div class="content">
+            <h3>một tình bạn tuyệt vời</h3>
+            <p>Cảm giác mới lạ.</p>
+            <a href="#" class="btn">Xem thêm</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-7.jpg" alt="" />
+          <div class="content">
+            <h3>một tình bạn tuyệt vời</h3>
+            <p>Cảm giác mới lạ.</p>
+            <a href="#" class="btn">Xem thêm</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-8.jpg" alt="" />
+          <div class="content">
+            <h3>một tình bạn tuyệt vời</h3>
+            <p>Cảm giác mới lạ.</p>
+            <a href="#" class="btn">Xem thêm</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-9.jpg" alt="" />
+          <div class="content">
+            <h3>một tình bạn tuyệt vời</h3>
+            <p>Cảm giác mới lạ.</p>
+            <a href="#" class="btn">Xem thêm</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+      </h1>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/an.png" alt="" />
+              <h3>Đại An</h3>
+              <p>
+                1 chàng trai nhiều ước mơ và đam mê nhưng cậu ta đang theo nghề
+                viết code. Cậu ấy không muốn người con gái của Cậu ấy buồn, rất
+                yêu thương người con gái bên cạnh!
+              </p>
+              <div class="stars">
+                <i class="fas fa-star">T</i>
+                <i class="fas fa-star">R</i>
+                <i class="fas fa-star">A</i>
+                <i class="fas fa-star">N</i>
+                <i class="fas fa-star">G</i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/trang.png" alt="" />
+              <h3>Thu Trang</h3>
+              <p>
+                1 cô gái bên ngoài thì mạnh mẽ nhưng bên trong hay khóc. Cô gái
+                là 1 người rất tuyệt vời.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star">Đ</i>
+                <i class="fas fa-star">Ạ</i>
+                <i class="fas fa-star">I</i>
+                <i class="fas fa-star">A</i>
+                <i class="fas fa-star">N</i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/loan.png" alt="" />
+              <h3>Ngọc Loan</h3>
+              <p>27822</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/long.png" alt="" />
+              <h3>Đồng Văn Long</h3>
+              <p>1 thằng con trai rất tốt biết chia sẻ giúp đỡ bạn bè!</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/contact-img.svg" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="tên" />
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="số điện thoại" />
+            <input type="text" placeholder="môn học" />
+          </div>
+          <textarea
+            placeholder="message"
+            name="Phạm Quang Đại An"
+            id="https://www.messenger.com/t/100075408351255/"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" class="btn" value="send message" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- brand section  -->
+    <section class="brand-container">
+      <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/1.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="images/2.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="images/3.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="images/4.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="images/5.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="images/6.jpg" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>về chúng tôi</h3>
+          <p>Kho lưu giữ những kỉ niệm không bao giờ lãng quên.</p>
+        </div>
+        <div class="box">
+          <h3>địa điểm chi nhánh</h3>
+          <a href="#">Việt Nam</a>
+          <a href="#">Miền Bắc</a>
+          <a href="#">Hải Dương</a>
+          <a href="#">Kim Thành</a>
+        </div>
+        <div class="box">
+          u
+          <h3>đường dẫn nhanh</h3>
+          <a href="#">Trang chủ</a>
+          <a href="#">Sách</a>
+          <a href="#">Gói</a>
+          <a href="#">Dịch vụ</a>
+          <a href="#">Kỷ niệm</a>
+          <a href="#">Kiểm tra</a>
+          <a href="#">Tiếp xúc</a>
+        </div>
+        <div class="box">
+          <h3>theo chúng tôi</h3>
+          <a href="#">facebook: Phạm Quang Đại An</a>
+          <a href="#">instagram</a>
+          <a href="#">tiktok</a>
+          <a href="#">zalo: 0372772326</a>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        created by <span> mr.Dai An </span> | all rights reserved!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+  </body>
+</html>
